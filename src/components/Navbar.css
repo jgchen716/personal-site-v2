@@ -167,7 +167,6 @@
 
   @media screen and (max-width: 400px) {
     .navbar-logo {
-      padding-top: 10px;
       font-size: 1.6rem;
     }
   }
