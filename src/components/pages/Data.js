@@ -10,7 +10,8 @@ export const homeObj1 = {
     buttonLabel: 'Get In Touch',
     imgStart: '',
     img: 'images/pro.png',
-    alt: 'Jonathan Chen'
+    alt: 'Jonathan Chen',
+    repo: null
 }
 
 export const homeObj2 = {
@@ -30,7 +31,8 @@ export const homeObj2 = {
     buttonLabel: '',
     imgStart: 'start',
     img: 'images/penn.png',
-    alt: 'University of Pennsylvania'
+    alt: 'University of Pennsylvania',
+    repo: null
 }
 
 export const homeObj3 = {
@@ -46,7 +48,8 @@ export const homeObj3 = {
     imgStart: '',
     img: 'images/keeper.png',
     alt: 'University of Pennsylvania',
-    project: true
+    project: true,
+    repo: '//github.com/jgchen716/keeper-app'
 }
 
 export const homeObj4 = {
@@ -62,7 +65,8 @@ export const homeObj4 = {
     imgStart: '',
     img: 'images/secrets.png',
     alt: 'University of Pennsylvania',
-    project: true
+    project: true,
+    repo: '//github.com/jgchen716/secrets-app'
 }
 
 export const homeObj5 = {
@@ -78,7 +82,8 @@ export const homeObj5 = {
     imgStart: '',
     img: 'images/journal.png',
     alt: 'University of Pennsylvania',
-    project: true
+    project: true, 
+    repo: '//github.com/jgchen716/journal-web-app'
 }
 
 export const homeObj6 = {
@@ -94,5 +99,6 @@ export const homeObj6 = {
     imgStart: '',
     img: 'images/bot.svg',
     alt: 'University of Pennsylvania', 
-    project: true
+    project: true, 
+    repo: null
 }

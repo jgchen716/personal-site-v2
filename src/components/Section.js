@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button } from './Button';
 import { Link } from 'react-scroll';
+import { Link as Link2} from 'react-router-dom';
 import './Section.css';
 
 function Section({
-    lightBg, topLine, lightText, lightTextDesc, headline, subtitle, descriptions, hasButton, buttonLabel, img, alt, imgStart, project
+    lightBg, topLine, lightText, lightTextDesc, headline, subtitle, descriptions, hasButton, buttonLabel, img, alt, imgStart, project, repo
 }) {
     return (
         <div className={project ? 'project' : ''}>
@@ -15,7 +16,7 @@ function Section({
                             <div className='home__hero-text-wrapper'>
                                 <div className='top-line'>{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                                {subtitle !== '' && (<h2>{subtitle}</h2>)}
+                                {subtitle !== '' && (<Link2 to={repo} target='_blank'><h2>{subtitle}</h2></Link2>)}
 
                                 {descriptions.length === 1 ? (<p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{descriptions[0]}</p>) :
                                     descriptions.map((item, index) => {return (<li key={index} className='desc-item'>{item}</li>); })}
