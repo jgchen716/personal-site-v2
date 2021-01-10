@@ -120,12 +120,17 @@ img {
 .project img {
     box-shadow: 2px 2px 8px #fff;
     max-height: 350px;
+    transform: scale(1.03);
 }
 
 @media screen and (max-width: 960px) {
     .container {
         padding-right: 30px;
         padding-left: 30px;
+    }
+
+    .project img {
+        transform: none;
     }
 }
 
