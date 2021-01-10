@@ -11,6 +11,7 @@ export const homeObj1 = {
     imgStart: '',
     img: 'images/pro.png',
     alt: 'Jonathan Chen',
+    hasLink: false,
     repo: null
 }
 
@@ -32,6 +33,7 @@ export const homeObj2 = {
     imgStart: 'start',
     img: 'images/penn.png',
     alt: 'University of Pennsylvania',
+    hasLink: false,
     repo: null
 }
 
@@ -49,6 +51,7 @@ export const homeObj3 = {
     img: 'images/keeper.png',
     alt: 'University of Pennsylvania',
     project: true,
+    hasLink: true,
     repo: '//github.com/jgchen716/keeper-app'
 }
 
@@ -66,6 +69,7 @@ export const homeObj4 = {
     img: 'images/secrets.png',
     alt: 'University of Pennsylvania',
     project: true,
+    hasLink: true,
     repo: '//github.com/jgchen716/secrets-app'
 }
 
@@ -83,6 +87,7 @@ export const homeObj5 = {
     img: 'images/journal.png',
     alt: 'University of Pennsylvania',
     project: true, 
+    hasLink: true,
     repo: '//github.com/jgchen716/journal-web-app'
 }
 
@@ -100,5 +105,6 @@ export const homeObj6 = {
     img: 'images/bot.svg',
     alt: 'University of Pennsylvania', 
     project: true, 
+    hasLink: false,
     repo: null
 }
