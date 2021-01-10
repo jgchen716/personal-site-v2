@@ -124,7 +124,6 @@ img {
 
 .project img:hover {
     box-shadow: 2px 2px 8px #31de79;
-    max-height: 350px;
     transition: all 0.3s ease-out;
 }
 
