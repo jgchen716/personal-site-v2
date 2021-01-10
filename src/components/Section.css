@@ -120,17 +120,18 @@ img {
 .project img {
     box-shadow: 2px 2px 8px #fff;
     max-height: 350px;
-    transform: scale(1.03);
+}
+
+.project img:hover {
+    box-shadow: 2px 2px 8px #31de79;
+    max-height: 350px;
+    transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 960px) {
     .container {
         padding-right: 30px;
         padding-left: 30px;
-    }
-
-    .project img {
-        transform: none;
     }
 }
 
