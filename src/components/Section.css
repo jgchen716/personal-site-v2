@@ -6,7 +6,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-h2:hover {
+h2.repo-link:hover {
     color: #24a665;
     transition: all 0.3s ease;
 }
