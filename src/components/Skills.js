@@ -13,7 +13,8 @@ import {
     SiOcaml, 
     SiCplusplus, 
     SiJavascript, 
-    SiMongodb
+    SiMongodb,
+    SiGatsby
 } from 'react-icons/si';
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { IconContext } from 'react-icons/lib';
@@ -35,10 +36,10 @@ function Skills() {
                                 </div>
                                 <h3>General</h3>
                                 <ul className='skills__container-features'>
-                                    <li><FaJava size={24}/>    Java</li>
-                                    <li><FaPython size={24}/>   Python</li>
-                                    <li><SiOcaml size={24}/>    OCaml</li>
-                                    <li><SiCplusplus size={24}/>    C++</li>
+                                    <li><FaJava size={26}/>    Java</li>
+                                    <li><FaPython size={26}/>   Python</li>
+                                    <li><SiOcaml size={26}/>    OCaml</li>
+                                    <li><SiCplusplus size={26}/>    C++</li>
                                 </ul>
                             </div>
                         </Link>
@@ -49,11 +50,12 @@ function Skills() {
                                 </div>
                                 <h3>Web</h3>
                                 <ul className='skills__container-features'>
-                                    <li><FaReact size={20}/>   React</li>
-                                    <li><FaNodeJs size={20}/>   Node</li>
-                                    <li><SiJavascript size={20}/>     JavaScript</li>
-                                    <li><FaHtml5 size={20}/>   HTML</li>
-                                    <li><FaCss3Alt size={20}/>   CSS</li>
+                                    <li><FaReact size={19}/>   React</li>
+                                    <li><FaNodeJs size={19}/>   Node</li>
+                                    <li><SiJavascript size={19}/>     JavaScript</li>
+                                    <li><FaHtml5 size={19}/>   HTML</li>
+                                    <li><FaCss3Alt size={19}/>   CSS</li>
+                                    <li><SiGatsby size={19}/>   Gatsby</li>
                                 </ul>
                             </div>
                         </Link>
@@ -64,8 +66,8 @@ function Skills() {
                                 </div>
                                 <h3>Database</h3>
                                 <ul className='skills__container-features'>
-                                    <li><SiMongodb size={20}/>  MongoDB</li>
-                                    <li><AiOutlineConsoleSql size={20}/>  SQL</li>
+                                    <li><SiMongodb size={26}/>  MongoDB</li>
+                                    <li><AiOutlineConsoleSql size={26}/>  SQL</li>
                                 </ul>
                             </div>
                         </Link>
